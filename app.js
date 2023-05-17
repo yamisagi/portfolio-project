@@ -6,14 +6,5 @@ $(window).resize(function () {
         $('.header').html('<h1 class="header">I am Eren, a <span>Flutter</span> developer.</h1>');
     }
 });
+// This is not working on mobile devices. I don't know why.
 
-
-var promise = document.querySelector('video').play();
-
-if (promise !== undefined) {
-    promise.then(_ => {
-
-    }).catch(error => {
-    });
-}
-// Fix

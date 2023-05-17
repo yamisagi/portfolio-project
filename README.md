@@ -70,6 +70,11 @@ In this repository, I will make a portfolio project for my side projects. I will
 - [x] Add Project Details
 - [x] Add Project Links
 - [x] Add Project Auto Video Play
+- [x] Fix Project Details
+- [x] Fix Auto Video Play for Safari
+- [x] All Projects are Responsive
+- [x] Finish Project
+- [x] Deploy Project
 
 
 
