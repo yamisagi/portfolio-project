@@ -7,13 +7,12 @@ $(window).resize(function () {
     }
 });
 
-// Autoplay video for safari
 
 var promise = document.querySelector('video').play();
 
 if (promise !== undefined) {
     promise.then(_ => {
-        // Autoplay started!
+
     }).catch(error => {
     });
 }
