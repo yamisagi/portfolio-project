@@ -67,6 +67,10 @@ In this repository, I will make a portfolio project for my side projects. I will
 - [x] Create HTML Structure
 - [x] Use Flexbox for Layout
 - [x] Add Slider for Projects
+- [x] Add Project Details
+- [x] Add Project Links
+- [x] Add Project Auto Video Play
+
 
 
 
