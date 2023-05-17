@@ -78,66 +78,6 @@ li {
   font-family: "Pacifico", cursive;
   margin: 20px;
 }
-@media screen and (max-width: 900px) {
-  main {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  footer {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .card {
-    margin-bottom: 50px;
-  }
-}
-@media screen and (max-width: 768px) {
-  main {
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  footer {
-    text-align: center;
-    margin-top: 20px;
-  }
-  .header {
-    text-align: center;
-    font-size: 3rem;
-  }
-  iframe {
-    display: none;
-  }
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-  .card {
-    margin-bottom: 70px;
-  }
-
-  .tile-image {
-    width: 75%;
-    height: 50%;
-  }
-  .card-text {
-    text-align: center;
-    padding: 0 20px;
-  }
-  .card-title {
-    text-align: center;
-  }
-  .project-title {
-    display: block;
-    text-align: center;
-  }
-}
 
 /* Slider Style */
 
@@ -235,4 +175,68 @@ a.slide__next,
   z-index: 1;
   background: none;
   pointer-events: none;
+}
+
+@media screen and (max-width: 900px) {
+  main {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .card {
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .header {
+    text-align: center;
+    font-size: 3rem;
+  }
+  iframe {
+    display: none;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .card {
+    margin-bottom: 70px;
+  }
+
+  .tile-image {
+    width: 75%;
+    height: 50%;
+  }
+  .card-text {
+    text-align: center;
+    padding: 0 20px;
+  }
+  .card-title {
+    text-align: center;
+  }
+  .project-title {
+    display: block;
+    text-align: center;
+  }
+  .slider-container {
+    margin-top: 0;
+  }
 }
