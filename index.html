@@ -20,39 +20,70 @@
   </head>
 
   <body>
-    <h1>I am Eren 🙌🏻</h1>
+    <h1>
+      I am Eren
+      <span
+        ><iframe
+          src="https://giphy.com/embed/bGgsc5mWoryfgKBx1u"
+          width="100px"
+          height="100px"
+          frameborder="0"
+        ></iframe
+      ></span>
+    </h1>
     <main>
       <div class="left card">
-        <img
-          class="tile-image"
-          src="./assets/images/beautiful.jpg"
-          alt="hand and flower in water"
-        />
+        <div class="image">
+          <img
+            class="tile-image"
+            src="./assets/images/beautiful.jpg"
+            alt="hand and flower in water"
+          />
+        </div>
         <div class="float">
           <h2 class="card-title">About</h2>
           <p class="card-text">
-            Hello I am Eren, I am a Flutter developer and I love to create
-            beautiful apps. I am also trying to learn web development. In this
-            website you can find my projects and my blog posts. I hope you enjoy
-            it.
+            Hello I am Eren, I am a <span>Flutter</span> developer and I love to
+            create beautiful apps. I am also trying to learn web development. In
+            this website you can find my projects and my blog posts. I hope you
+            enjoy it.
           </p>
         </div>
       </div>
 
-      <div class="right card">
-        <img
-          class="tile-image"
-          src="./assets/images/construction.jpg"
-          alt="metal structure"
-        />
-        <div class="float">
-          <h2 class="card-title">My Projects</h2>
-          <p>
-            I have created many projects in Flutter. You can find them in my
-            Github account. I am also trying to learn web development. I am
-            currently working on a project called "Portfolio". You can find it
-            in my Github account.
-          </p>
+      <div class="right card dropdown">
+        <div class="content">
+          <img
+            class="tile-image"
+            src="./assets/images/construction.jpg"
+            alt="metal structure"
+          />
+          <div>
+            <h2 class="card-title">My Projects</h2>
+            <p>
+              I have created many projects in <span>Flutter</span>. You can find
+              them in my Github account. I am also trying to learn web
+              development. I am currently working on a project called
+              "Portfolio". You can find it in my
+              <a href="https://github.com/yamisagi" target="_blank"
+                >Github account</a
+              >.
+            </p>
+          </div>
+        </div>
+
+        <div class="dropdown-content">
+          <div>
+            <h2 class="project-title">Flutter Projects</h2>
+            <ul>
+              <li>
+                <a href="" target="_blank">Project 1</a>
+              </li>
+              <li>
+                <a href="" target="_blank">Project 2</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
