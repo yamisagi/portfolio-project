@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: 'Righteous', cursive;
-  background-color: #FDF4F5;
+  font-family: "Righteous", cursive;
+  background-color: #fdf4f5;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
@@ -21,26 +21,26 @@ main {
 h2 {
   font-size: 2rem;
   margin-bottom: 10px;
-  color: #89375F;
+  color: #89375f;
 }
 span {
-  color: #D14D72;
+  color: #d14d72;
 }
 iframe {
   border-radius: 10px;
 }
 footer {
   text-align: right;
-  color: #BA90C6;
+  color: #ba90c6;
   margin-top: 50px;
   padding: 20px;
 }
 a {
   text-decoration: none;
-  color: #FD8A8A;
+  color: #fd8a8a;
 }
 a:hover {
-  color:#7286D3;
+  color: #7286d3;
 }
 
 .tile-image {
@@ -62,8 +62,7 @@ a:hover {
 .card-text {
   text-align: justify;
   font-size: 1.2rem;
-  color: #2A2F4F;
-  
+  color: #2a2f4f;
 }
 .content {
   display: flex;
@@ -73,14 +72,14 @@ a:hover {
   font-size: 5rem;
   font-family: "Pacifico", cursive;
   margin: 20px;
-  color:#3A4F7A;
+  color: #3a4f7a;
 }
 .mobile-header {
   display: none;
   font-size: 3rem;
   font-family: "Pacifico", cursive;
   margin: 20px;
-  color:#3A4F7A;
+  color: #3a4f7a;
 }
 
 /* Slider Style */
@@ -110,6 +109,13 @@ a:hover {
   position: relative;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Fix : Hide scroll in Windows Devices & All */
+.slides::-webkit-scrollbar {
+  display: none;
 }
 
 .slide {
