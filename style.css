@@ -5,8 +5,8 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #faf9f6;
+  font-family: 'Righteous', cursive;
+  background-color: #FDF4F5;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
@@ -21,36 +21,26 @@ main {
 h2 {
   font-size: 2rem;
   margin-bottom: 10px;
+  color: #89375F;
 }
 span {
-  color: #11d5fc;
+  color: #D14D72;
 }
 iframe {
   border-radius: 10px;
 }
 footer {
   text-align: right;
-  color: midnightblue;
+  color: #BA90C6;
   margin-top: 50px;
   padding: 20px;
 }
 a {
   text-decoration: none;
-  color: rgb(78, 78, 229);
+  color: #FD8A8A;
 }
 a:hover {
-  color: rgb(124, 124, 255);
-}
-ul {
-  list-style: none;
-  text-align: justify;
-  padding: 20px;
-}
-li {
-  margin: 10px 0;
-  animation-name: grow;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+  color:#7286D3;
 }
 
 .tile-image {
@@ -71,6 +61,9 @@ li {
 }
 .card-text {
   text-align: justify;
+  font-size: 1.2rem;
+  color: #2A2F4F;
+  
 }
 .content {
   display: flex;
@@ -80,12 +73,14 @@ li {
   font-size: 5rem;
   font-family: "Pacifico", cursive;
   margin: 20px;
+  color:#3A4F7A;
 }
 .mobile-header {
   display: none;
   font-size: 3rem;
   font-family: "Pacifico", cursive;
   margin: 20px;
+  color:#3A4F7A;
 }
 
 /* Slider Style */
@@ -217,6 +212,9 @@ video {
   .card {
     margin-bottom: 50px;
   }
+  .card-text {
+    font-size: 1.3rem;
+  }
 }
 @media screen and (max-width: 768px) {
   main {
@@ -235,9 +233,9 @@ video {
   }
   .mobile-header {
     display: block;
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: "Pacifico", cursive;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
   }
   .content {
@@ -248,17 +246,21 @@ video {
   .card {
     margin-bottom: 70px;
   }
-
+  .slider-container {
+    margin: 0 10px;
+  }
   .tile-image {
     width: 75%;
     height: 50%;
   }
   .card-text {
     text-align: center;
-    padding: 0 20px;
+    padding: 0 15px;
+    font-size: 1.5rem;
   }
   .card-title {
     text-align: center;
+    font-size: 3rem;
   }
   .project-title {
     display: block;
@@ -307,7 +309,7 @@ video {
   }
 
   .slider_text {
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: left;
   }
 }
